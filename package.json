@@ -1,0 +1,22 @@
+{
+  "name": "learning-ci-github-sonarcloud",
+  "version": "0.0.1",
+  "description": "How does one follow instructions?",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js | grep -q \"I exist\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrikei/learning-CI-github-sonarcloud.git"
+  },
+  "keywords": [
+    "sonarcloud"
+  ],
+  "author": "Adriano Pais Rodrigues",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/adrikei/learning-CI-github-sonarcloud/issues"
+  },
+  "homepage": "https://github.com/adrikei/learning-CI-github-sonarcloud#readme"
+}
