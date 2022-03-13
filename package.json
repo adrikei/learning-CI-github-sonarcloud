@@ -4,7 +4,7 @@
   "description": "How does one follow instructions?",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js | grep -q \"I exist\""
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/adrikei/learning-CI-github-sonarcloud/issues"
   },
-  "homepage": "https://github.com/adrikei/learning-CI-github-sonarcloud#readme"
+  "homepage": "https://github.com/adrikei/learning-CI-github-sonarcloud#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
 }
